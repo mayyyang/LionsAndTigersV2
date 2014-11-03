@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		FB7616191A05B958003101B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7616181A05B958003101B1 /* main.m */; };
 		FB76161C1A05B958003101B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76161B1A05B958003101B1 /* AppDelegate.m */; };
-		FB76161F1A05B958003101B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76161E1A05B958003101B1 /* ViewController.m */; };
+		FB76161F1A05B958003101B1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76161E1A05B958003101B1 /* RootViewController.m */; };
 		FB7616221A05B958003101B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7616201A05B958003101B1 /* Main.storyboard */; };
 		FB7616241A05B958003101B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7616231A05B958003101B1 /* Images.xcassets */; };
 		FB7616271A05B958003101B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB7616251A05B958003101B1 /* LaunchScreen.xib */; };
 		FB7616331A05B958003101B1 /* LionsAndTigers3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7616321A05B958003101B1 /* LionsAndTigers3Tests.m */; };
+		FB76163E1A05BAE6003101B1 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB76163D1A05BAE6003101B1 /* PhotoViewController.m */; };
+		FB7616411A05BB15003101B1 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7616401A05BB15003101B1 /* MenuViewController.m */; };
+		FBB5A1D31A06AF0400AC6C98 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB5A1D21A06AF0400AC6C98 /* CustomCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,20 @@
 		FB7616181A05B958003101B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB76161A1A05B958003101B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB76161B1A05B958003101B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FB76161D1A05B958003101B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FB76161E1A05B958003101B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB76161D1A05B958003101B1 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FB76161E1A05B958003101B1 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		FB7616211A05B958003101B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB7616231A05B958003101B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FB7616261A05B958003101B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FB76162C1A05B958003101B1 /* LionsAndTigers3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionsAndTigers3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7616311A05B958003101B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB7616321A05B958003101B1 /* LionsAndTigers3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LionsAndTigers3Tests.m; sourceTree = "<group>"; };
+		FB76163C1A05BAE6003101B1 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		FB76163D1A05BAE6003101B1 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		FB76163F1A05BB15003101B1 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		FB7616401A05BB15003101B1 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		FBB5A1D11A06AF0400AC6C98 /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		FBB5A1D21A06AF0400AC6C98 /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +92,14 @@
 			children = (
 				FB76161A1A05B958003101B1 /* AppDelegate.h */,
 				FB76161B1A05B958003101B1 /* AppDelegate.m */,
-				FB76161D1A05B958003101B1 /* ViewController.h */,
-				FB76161E1A05B958003101B1 /* ViewController.m */,
+				FB76161D1A05B958003101B1 /* RootViewController.h */,
+				FB76161E1A05B958003101B1 /* RootViewController.m */,
+				FB76163C1A05BAE6003101B1 /* PhotoViewController.h */,
+				FB76163D1A05BAE6003101B1 /* PhotoViewController.m */,
+				FB76163F1A05BB15003101B1 /* MenuViewController.h */,
+				FB7616401A05BB15003101B1 /* MenuViewController.m */,
+				FBB5A1D11A06AF0400AC6C98 /* CustomCollectionViewCell.h */,
+				FBB5A1D21A06AF0400AC6C98 /* CustomCollectionViewCell.m */,
 				FB7616201A05B958003101B1 /* Main.storyboard */,
 				FB7616231A05B958003101B1 /* Images.xcassets */,
 				FB7616251A05B958003101B1 /* LaunchScreen.xib */,
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB76161F1A05B958003101B1 /* ViewController.m in Sources */,
+				FB76161F1A05B958003101B1 /* RootViewController.m in Sources */,
+				FB76163E1A05BAE6003101B1 /* PhotoViewController.m in Sources */,
 				FB76161C1A05B958003101B1 /* AppDelegate.m in Sources */,
+				FBB5A1D31A06AF0400AC6C98 /* CustomCollectionViewCell.m in Sources */,
 				FB7616191A05B958003101B1 /* main.m in Sources */,
+				FB7616411A05BB15003101B1 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +430,7 @@
 				FB7616381A05B958003101B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB7616391A05B958003101B1 /* Build configuration list for PBXNativeTarget "LionsAndTigers3Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				FB76163B1A05B958003101B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
